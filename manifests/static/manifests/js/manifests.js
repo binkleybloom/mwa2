@@ -198,7 +198,9 @@ var js_obj = {};
 
 // these should be moved into their own file maybe so they can be edited
 // seperately
-var key_list = {'catalogs': 'Catalogs',
+var key_list = {'ClientIdentifier': 'Client Identifier',
+                'ComputerName': 'Computer Name',
+                'catalogs': 'Catalogs',
                 'included_manifests': 'Included Manifests',
                 'featured_items': 'Featured Items',
                 'managed_installs': 'Managed Installs',
@@ -209,7 +211,9 @@ var key_list = {'catalogs': 'Catalogs',
 
 // these should be moved into their own file maybe so they can be edited
 // seperately
-var keys_and_types = {'catalogs': ['catalogname'],
+var keys_and_types = {'ClientIdentifier': ['itemname'],
+                      'ComputerName': ['itemname'],
+                      'catalogs': ['catalogname'],
                       'conditional_items': [{'condition': 'os_vers_minor > 9',
                                              'managed_installs': ['itemname']}],
                       'included_manifests': ['manifestname'],
