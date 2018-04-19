@@ -1,3 +1,7 @@
+## Fork details
+
+This fork of MunkiWebAdmin2 extends the primary manifest editing screen to include ClientIdentifier and ComputerName fields. These fields are leveraged by a custom installer script for munki-barrel enrollment.
+
 ## Introduction
 
 This is version 2 of MunkiWebAdmin, a web-based administration tool for Munki.
