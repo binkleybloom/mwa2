@@ -200,28 +200,14 @@ var js_obj = {};
 // seperately
 var key_list = {'ClientIdentifier': 'Client Identifier',
                 'ComputerName': 'Computer Name',
-                'catalogs': 'Catalogs',
-                'included_manifests': 'Included Manifests',
-                'featured_items': 'Featured Items',
                 'managed_installs': 'Managed Installs',
-                'managed_uninstalls': 'Managed Uninstalls',
-                'managed_updates': 'Managed Updates',
-                'optional_installs': 'Optional Installs',
                 };
 
 // these should be moved into their own file maybe so they can be edited
 // seperately
 var keys_and_types = {'ClientIdentifier': ['itemname'],
                       'ComputerName': ['itemname'],
-                      'catalogs': ['catalogname'],
-                      'conditional_items': [{'condition': 'os_vers_minor > 9',
-                                             'managed_installs': ['itemname']}],
-                      'included_manifests': ['manifestname'],
-                      'featured_items': ['itemname'],
                       'managed_installs': ['itemname'],
-                      'managed_uninstalls': ['itemname'],
-                      'managed_updates': ['itemname'],
-                      'optional_installs': ['itemname'],
                      };
 
 
